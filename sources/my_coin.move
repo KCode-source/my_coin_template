@@ -27,8 +27,8 @@ module my_coin::my_coin {
 
         let (treasury_cap, metadata) = coin::create_currency(
             otw, 9,
-            b"MC",
-            b"My Coin",
+            b"KCSC",
+            b"KCode-Source Coin",
             b"My First Ever Coin",
             option::some(url),
             ctx
